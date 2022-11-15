@@ -1,3 +1,7 @@
+.lending {
+    min-width: 1440px;
+}
+
 .section1 {
     position: relative;
     display: flex;
@@ -15,10 +19,23 @@
 }
 
 .blackFlack {
+    display: flex;
+    align-items: flex-end;
     width: 394px;
     height: 968px;
     background-color: #252525;
     margin-top: -830px;
+}
+
+.count_len {
+    position: relative;
+    z-index: 101;
+    margin-left: 50px;
+    margin-bottom: -200px;
+    font-size: 400px;
+    font-weight: 600;
+    color: #FFFFFF;
+    opacity: 0.5;
 }
 
 .section1_text>h1 {
@@ -56,12 +73,21 @@
 
 .img_text {
     display: flex;
-    height: 395px;
+    height: 339px;
     position: absolute;
     width: 263px;
     top: 412px;
     right: 316px;
 
+}
+
+.img_text2 {
+    display: flex;
+    height: 667px;
+    position: absolute;
+    width: 263px;
+    top: 80px;
+    left: 0;
 }
 
 .img_text h2 {
@@ -76,4 +102,92 @@
     background-color: black;
     margin-right: 21px;
 
+}
+
+.vetr_line2 {
+    margin-left: -48px;
+    margin-top: 350px;
+    border: 1px black solid;
+    background-color: black;
+    margin-right: 21px;
+}
+
+.vetr_line2>div {
+    height: 170px;
+    border: 2px white solid;
+    background-color: white;
+}
+
+.header_in {
+    position: relative;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    min-width: 1180px;
+    margin: 0 120px;
+}
+
+.len_gap {
+    position: relative;
+    z-index: 1000;
+    height: 102px;
+    background-color: #F5F5F5;
+    margin-top: -86px;
+}
+
+.nav_wrap_len {
+    font-size: 22px;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.white_h1 {
+    position: relative;
+    height: 103px;
+    z-index: 401;
+    color: white;
+    font-size: 82px;
+    font-weight: 700;
+    padding: 0 20px 28px 10px;
+    border-bottom: 5px solid white;
+    text-align: start;
+    margin: 0;
+}
+
+.img_text2 h2,
+.img_text2 span {
+    width: 444px;
+    position: relative;
+    z-index: 401;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.img_text2 h2 {
+    margin-top: 350px;
+}
+
+.line2 {
+    position: absolute;
+    z-index: 0;
+    left: -120px;
+    top: -35px;
+    width: 837px;
+    height: 70px;
+    border: 1px #252525 solid;
+    background-color: #252525;
+}
+
+.twolen {
+    z-index: 401;
+    margin-left: -10px;
+}
+
+.marginL{
+    margin-left: -186px;
 }

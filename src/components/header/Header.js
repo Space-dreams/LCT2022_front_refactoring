@@ -80,7 +80,7 @@ const Header = () => {
         <header>
             <div className="header">
 
-                <Link className="link" to={'/user_page'}>
+                <Link className="link" to={token ? '/user_page' : '/'}>
                     <div className="logo">
                         <div style={{ width: '42px', border: '1px #000 solid', background: '#000' }} ></div>
                         <div style={{ width: '83px', marginTop: '9px', background: '#000', border: '1px #000 solid' }} ></div>
