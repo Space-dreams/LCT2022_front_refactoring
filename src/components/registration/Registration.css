@@ -1,0 +1,67 @@
+.registration {
+    padding: 50px;
+}
+
+.input_registration {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    height: 50px;
+}
+
+.item_registration>input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.item_registration>h4 {
+    white-space: nowrap;
+    width: max-content;
+    margin: 0;
+    padding: 0;
+}
+
+.required {
+    width: 500px;
+}
+
+.additional {
+    width: 900px;
+}
+
+.item_registration{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.basic-single{
+    width: 100%;
+}
+
+.css-1okebmr-indicatorSeparator{
+    display: none;
+}
+
+.css-1ieha2v-control:hover{
+    border: 4px black solid;
+
+}
+
+.section_error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_error>h1{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.form-registration{
+    display: flex;
+    flex-direction: column;
+}

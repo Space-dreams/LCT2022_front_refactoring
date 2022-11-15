@@ -1,0 +1,72 @@
+.registration {
+    position: relative;
+    padding-left: 120px;
+}
+
+.item_registration {
+    width: 803px;
+    padding: 34px 0;
+    border-bottom: 3px black solid;
+}
+
+.item_registration h4 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.item_registration input {
+    font-size: 25px;
+    padding-left: 20px;
+    background-color: #F5F5F5;
+}
+
+input[type='date'] {
+    border: none;
+    outline: none;
+    width: 3--px;
+    transform: translate(-50%-50%);
+}
+
+/* ::-webkit-calendar-picker-indicator{} */
+
+.date {
+    display: flex;
+}
+
+.css-1hb7zxy-IndicatorsContainer {
+    display: none;
+}
+
+.agreement {
+    display: flex;
+    align-items: center;
+    margin-top: 43px;
+    font-size: 18px;
+
+}
+
+.cut {
+    width: 704px;
+}
+
+.taext_agreement {
+    margin-left: 20px;
+}
+
+.right_reg {
+    position: absolute;
+    right: 0;
+    top: -35px;
+}
+
+.left-reg {
+    display: block;
+    margin-left: -120px;
+    margin-top: -200px;
+}
+
+.save_info {
+    margin-top: 115px;
+    margin-left: 372px;
+    font-size: 20px;
+}
