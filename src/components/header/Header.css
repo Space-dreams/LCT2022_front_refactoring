@@ -10,6 +10,10 @@
     margin: 0 120px;
 }
 
+header{
+    width: 1440px;
+}
+
 .nav_wrap {
 
     margin-right: 5px;
@@ -34,7 +38,7 @@
 }
 
 .white:hover {
-    color:#000000;
+    color: #000000;
 }
 
 .black {
@@ -62,7 +66,7 @@
     text-decoration: none;
 }
 
-.entrance:hover{
+.entrance:hover {
     color: #999999;
 }
 

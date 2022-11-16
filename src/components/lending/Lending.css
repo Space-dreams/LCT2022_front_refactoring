@@ -2,6 +2,11 @@
     min-width: 1440px;
 }
 
+.lending .nav_wrap{
+    position: relative;
+    z-index: 450;
+}
+
 .section1 {
     position: relative;
     display: flex;

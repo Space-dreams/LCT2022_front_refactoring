@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useSelector } from "react-redux";
-import { useNavigate, Link, useLocation } from "react-router-dom";
+import { useNavigate, Link} from "react-router-dom";
 
 import './Lending.css';
 
@@ -62,13 +62,13 @@ const Lending = () => {
                         <nav>
                             <ul className="nav_header">
                                 <Link className="link" to={token ? '/feed' : '/auth'}>
-                                    <li className='black'>Лента идей</li>
+                                    <li className='black' style={{ color: '#ffffff', fontWeight: '700' }}>Лента идей</li>
                                 </Link>
                                 <Link className="link" to={token ? '/ideas' : '/auth'}>
-                                    <li className='black'>Мои идеи</li>
+                                    <li className='black' style={{ color: '#939393', fontWeight: '400' }}>Мои идеи</li>
                                 </Link>
                                 <Link className="link" to={token ? '/project' : '/auth'}>
-                                    <li className='black' >Мои проекты</li>
+                                    <li className='black' style={{ color: '#939393', fontWeight: '400' }}>Мои проекты</li>
                                 </Link>
                             </ul>
                         </nav>
@@ -82,7 +82,7 @@ const Lending = () => {
                 <section className="section1">
                     <div style={{ position: 'relative', zIndex: '200' }} className="section1_text">
                         <div className="line2"></div>
-                        <h1 style={{ textAlign: 'end', padding: '0 20px 22px 0', marginTop: '80px', marginBottom: '50px', borderBottom: '5px solid #000000' }} >Лента</h1>
+                        <h1 style={{ textAlign: 'end', padding: '0 20px 28px 0', height: '103px', marginTop: '80px', marginBottom: '50px', borderBottom: '5px solid #000000' }} >Лента</h1>
                         <h2>Смотри идеи по направлениям, которые тебе интересны, изучай<br />
                             новые направления!<br />
                             Собери команду, помоги воплотить их в жизнь!</h2>
@@ -122,13 +122,13 @@ const Lending = () => {
                         <nav>
                             <ul className="nav_header">
                                 <Link className="link" to={token ? '/feed' : '/auth'}>
-                                    <li className='black'>Лента идей</li>
+                                    <li className='black' style={{ color: '#939393', fontWeight: '400' }}>Лента идей</li>
                                 </Link>
                                 <Link className="link" to={token ? '/ideas' : '/auth'}>
-                                    <li className='black'>Мои идеи</li>
+                                    <li className='black' style={{ color: '#ffffff', fontWeight: '700' }}>Мои идеи</li>
                                 </Link>
                                 <Link className="link" to={token ? '/project' : '/auth'}>
-                                    <li className='black' >Мои проекты</li>
+                                    <li className='black' style={{ color: '#939393', fontWeight: '400' }} >Мои проекты</li>
                                 </Link>
                             </ul>
                         </nav>
@@ -142,7 +142,7 @@ const Lending = () => {
                 <section className="section1">
                     <div style={{ position: 'relative', zIndex: '200' }} className="section1_text">
                         <div className="line2"></div>
-                        <h1 style={{ textAlign: 'end', padding: '0 20px 22px 0', marginTop: '80px', marginBottom: '90px', borderBottom: '5px solid #000000' }} >Мои</h1>
+                        <h1 style={{ textAlign: 'end', padding: '0 20px 28px 0', height: '103px', marginTop: '80px', marginBottom: '90px', borderBottom: '5px solid #000000' }} >Мои</h1>
                         <h2>Расскажи о своих идеях.
                             Найди единомышленников.
                             Получи комментарии и отзывы<br /> независимых экспертов.
@@ -184,13 +184,13 @@ const Lending = () => {
                         <nav>
                             <ul className="nav_header">
                                 <Link className="link" to={token ? '/feed' : '/auth'}>
-                                    <li className='black'>Лента идей</li>
+                                    <li className='black' style={{ color: '#939393', fontWeight: '400', cursor: 'pointer' }}>Лента идей</li>
                                 </Link>
                                 <Link className="link" to={token ? '/ideas' : '/auth'}>
-                                    <li className='black'>Мои идеи</li>
+                                    <li className='black' style={{ color: '#939393', fontWeight: '400' }}>Мои идеи</li>
                                 </Link>
                                 <Link className="link" to={token ? '/project' : '/auth'}>
-                                    <li className='black' >Мои проекты</li>
+                                    <li className='black' style={{ color: '#ffffff', fontWeight: '700' }}>Мои проекты</li>
                                 </Link>
                             </ul>
                         </nav>
@@ -204,7 +204,7 @@ const Lending = () => {
                 <section className="section1">
                     <div style={{ position: 'relative', zIndex: '200' }} className="section1_text">
                         <div className="line2"></div>
-                        <h1 style={{ textAlign: 'end', padding: '0 20px 22px 0', marginTop: '80px', marginBottom: '90px', borderBottom: '5px solid #000000' }} >Мои</h1>
+                        <h1 style={{ textAlign: 'end', padding: '0 20px 28px 0', height: '103px', marginTop: '80px', marginBottom: '90px', borderBottom: '5px solid #000000' }} >Мои</h1>
                         <h2>Реализуй свою идею,<br />
                             найди команду для проекта!<br />
                             Получи поддержку Агентства инноваций Москвы!
